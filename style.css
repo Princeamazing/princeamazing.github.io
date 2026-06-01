@@ -1,0 +1,152 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: "Inconsolata", sans-serif;
+    background-image: url("cherry_blossom.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    animation: fadeIn 0.8s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.profile_picture {
+    height: 250px;
+    width: 250px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+
+
+    transition: transform, 0.3s;
+}
+
+.profile_picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile_picture:hover {
+    transform: scale(1.1)
+}
+
+h1 {
+    text-align: center;
+    padding: 2px;
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+
+    transition: transform, 0.3s;
+}
+
+h1:hover {
+    transform: scale(1.1)
+}
+
+p {
+    text-align: center;
+    padding: 2px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+h2 {
+    text-align: center;
+    padding: 2px;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+
+    transition: transform, 0.3s;
+}
+
+h2:hover {
+    transform: scale(1.1)
+}
+
+button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    
+    transition: transform, 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1)
+}
+
+.freerun_rework_reimagined_card {
+    height: 350px;
+    width: 250px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.5);
+    margin-left: 20px;
+
+
+    transition: transform, 0.3s;
+}
+
+.freerun_rework_reimagined_card img {
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.freerun_rework_reimagined_card h3 {
+    text-align: center;
+    padding: 2px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.freerun_rework_reimagined_card:hover {
+    transform: scale(1.1)
+}
+
+.roblox_profile_card {
+    height: 350px;
+    width: 250px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.5);
+    margin-left: 20px;
+
+
+    transition: transform, 0.3s;
+}
+
+.roblox_profile_card img {
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.roblox_profile_card h3 {
+    text-align: center;
+    padding: 2px;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+}
+
+.roblox_profile_card:hover {
+    transform: scale(1.1)
+}
+
+.roblox_profile_card:active {
+    transform: scale(0.9);
+}
