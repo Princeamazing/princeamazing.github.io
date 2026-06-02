@@ -9,7 +9,9 @@ roblox_card.addEventListener("click", () => {
 gd_card = document.getElementById("gd")
 
 gd_card.addEventListener("click", () => {
-    notification.textContent = "Copied to clipboard!";
+    notification.textContent = "Copied username to clipboard!";
+
+    navigator.clipboard.writeText("NotGamerboyXD")
 
     setTimeout(() => {notification.textContent = "";}, 10*1000);
 });
