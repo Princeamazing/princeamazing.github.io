@@ -1,3 +1,7 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     background-color: rgb(0, 0, 0);
     font-family: "Inconsolata", sans-serif;
@@ -150,3 +154,46 @@ button:hover {
 .roblox_profile_card:active {
     transform: scale(0.9);
 }
+
+.social_cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gd_card {
+    height: 350px;
+    width: 250px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.5);
+    margin-left: 20px;
+
+
+    transition: transform, 0.3s;
+}
+
+.gd_card img {
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.gd_card h3 {
+    text-align: center;
+    padding: 2px;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+}
+
+.gd_card:hover {
+    transform: scale(1.1)
+}
+
+.gd_card:active {
+    transform: scale(0.9);
+}
+
