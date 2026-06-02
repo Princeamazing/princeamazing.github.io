@@ -1,3 +1,5 @@
+const notification = document.getElementById("notification");
+
 roblox_card = document.getElementById("roblox_profile");
 
 roblox_card.addEventListener("click", () => {
@@ -7,6 +9,7 @@ roblox_card.addEventListener("click", () => {
 gd_card = document.getElementById("gd")
 
 gd_card.addEventListener("click", () => {
-    navigator.clipboard.writeText("NotGamerboyXD")
-    alert("Copied to clipboard! ")
+    notification.textContent = "Copied to clipboard!";
+
+    setTimeout(() => {notification.textContent = "";}, 10*1000);
 });
